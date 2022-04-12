@@ -50,6 +50,7 @@ from .rotary_positional_embedding import RotaryPositionalEmbedding
 from .positional_encoding import (
     RelPositionalEncoding,
 )
+from .cascaded_multihead_attention import *
 
 __all__ = [
     "AdaptiveInput",
